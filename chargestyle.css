@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');   
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:  'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+    font-size: 10px;
+}
+
+
+ul li a{
+  color: black;
+  text-decoration: none;
+  font-style: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+/*sidenav*/
+
+.sidenav {
+  
+  
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: #00162A;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 5rem;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#active{
+    color: white;
+}
+
+.sidenav i{
+    font-size: 2rem;
+    float: left;
+}
+
+/*side nav end*/
+
+
+
+.card{
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  width: 100%;
+  height: 7rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+.card input{
+  border: none;
+  width: 100%;
+  padding: .2rem;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.card img{
+margin: .7rem;
+margin-left: 1rem;
+}
+
+input::placeholder{
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.searchrule input{
+  font-size: 1.5rem;
+  width: 100%;
+  margin-top: 3rem;
+  height:5.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  border:2px solid #EEEEEE;
+
+}
+
+ul{
+  font-size: 2rem;
+}
+
+.pad input{
+  float: left;
+  margin-right:1rem;
+}
+
+.pad{
+ 
+
+  width: 100%;
+  padding: 2rem 1rem;
+  margin: 1rem 0rem;
+  border:2px solid #EEEEEE;
+ 
+}
+
+span{
+  font: 1.3rem bold;
+}
+
+.total{
+  width: 100%;
+  margin: 1rem 0rem 0rem;
+  background-color: #F3F3F3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.total span{
+  font: 2rem bold  ;
+  font-family:  'Poppins', sans-serif;;
+}
+
+.total input {
+  padding: .5rem;
+  border: 2px #000;
+  background-color: #cdcdcd;
+  border-radius: 5px;
+  float: right;
+  font-size: 2rem ;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: .7rem 1.5rem;
+
+}
+
+.total button{
+  font-size: 1.4rem;
+  height: 5rem;
+  width: 100%;
+  background-color: #00162A;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+
+
+
+
+.total{
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+
+}
+
+
+form{
+  position: relative;
+
+}
+
+
+
+
+#date{
+  font-size: 1.5rem;
+  color: #555;
+  font-weight: normal;
+  width: 70%;
+  margin-right: 2rem;
+}
+input:focus {
+  outline: none ; 
+}

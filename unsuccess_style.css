@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');   
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:  'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+    font-size: 10px;
+}
+
+body{
+  position: relative;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+/*sidenav*/
+
+.sidenav {
+  
+  
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #00162A;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 5rem;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#active{
+    color: white;
+}
+
+.sidenav i{
+    font-size: 2rem;
+    float: left;
+}
+
+/*side nav end*/
+
+
+#document h1{
+  color: #00162A;
+  margin-top: 2rem;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+
+}
+
+
+@supports (animation: grow .5s cubic-bezier(.25, .25, .25, 1) forwards) {
+  .tick {
+     stroke-opacity: 0;
+     stroke-dasharray: 29px;
+     stroke-dashoffset: 29px;
+     animation: draw .5s cubic-bezier(.25, .25, .25, 1) forwards;
+     animation-delay: .6s
+ }
+
+.sucess{
+  height: 60vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+p{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 800;
+}
+
+button {
+  width: 100%;
+  padding: 2rem;
+  color: white;
+  background-color: #00162A;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+.button{
+  width: 100%;
+  margin: 1rem 0rem 0rem;
+  background-color: #F3F3F3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.fixed{
+  position: relative;
+}

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');   
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:  'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 90%;
+    margin: auto;
+    /* background: red; */
+
+}
+/*header*/
+
+
+.header{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+/*form*/
+
+
+
+
+/*form labels*/
+
+form label{
+
+    font-size: 0.6rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+/*form inputs*/
+
+form input{
+    width: 100%;
+    padding: 1rem;
+    height: 3.5rem;
+    border: 2px solid #CDCDCD;
+    border-radius: 0.3rem;
+    background: none;
+}
+
+
+/*upload image button*/
+
+#upload{
+    height: 3rem;
+    width: 100%;
+    border-radius: 3px;
+    color: #00162A;
+    background: none;
+    border: 2px dashed #00162A;
+    margin-top: 1rem;
+}
+
+/*done button*/
+form #submit-button{
+    height: 3rem;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background: #00162A;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/*field*/
+.field{
+    margin-top: 1.5rem;
+}
+
+
+/*gender*/
+
+select {
+
+    /* styling */
+    background-color: white;
+    width: 100%;
+    border: 2px solid #CDCDCD;
+    border-radius: 5px;
+    display: inline-block;
+    font: inherit;
+    line-height:2em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+
+select.round {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      radial-gradient(#ddd 70%, transparent 72%);
+    background-position:
+      calc(100% - 20px) calc(1.2em + 2px),
+      calc(100% - 15px) calc(1.2em + 2px),
+      calc(100% - .5em) 0.6em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+  }
+  
+  select.round:focus {
+
+    border-color: #00162A;
+    outline: 0;
+  }
+  
+/*gender end*/
+
+/* profile setup button */
+  .set-profile-img{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.set-profile-img button{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: none;
+    background: #c4c4c4;
+}
+
+.set-profile-img i{
+    font-size: 1.7rem;
+}
+
+
+/*end*/
+
+/*lets setup text*/
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
